@@ -1,3 +1,5 @@
 .test{
-    top: 200;
+    height: 1000px;
+    width: 1000px;
+    justify-content: center;
 }

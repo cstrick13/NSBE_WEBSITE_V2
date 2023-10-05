@@ -1,11 +1,13 @@
 import React from 'react'
-import ".//About.css";
+import "./About.css";
+import { SectionWrapper } from '../../hoc';
+import { react } from '../../assets';
 
 function About() {
   return (
-  <h1 className='test'>About</h1>
+    <h1>hi</h1>
     
   )
 }
 
-export default About
+export default SectionWrapper(About,"about")
