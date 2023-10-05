@@ -1,0 +1,26 @@
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .header-text {
+    padding-bottom: 50rem;
+    font-weight: normal;
+    font-size: 70px;
+    text-align: center;
+  }
+
+.inner-text{
+    color: rgb(220,47,2);
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.slider-container {
+    max-width: 1200px;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}

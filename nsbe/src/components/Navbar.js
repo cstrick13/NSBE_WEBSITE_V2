@@ -29,7 +29,7 @@ function Navbar() {
     <>
     <nav className='navbar'>
         <div className='navbar-container'>
-            <a href="" className="navbar-logo">
+            <a href="#home" className="navbar-logo">
               <img src={logo} className='logo' />
             </a>
             <div className='menu-icon' onClick={handleClick}>

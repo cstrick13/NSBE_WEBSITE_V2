@@ -4,17 +4,24 @@ import Navbar from './components/Navbar';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import About from './components/pages/About';
 import Programs from './components/pages/Programs';
+import Footer from './components/pages/Footer';
+import Home from './components/pages/Home';
 
 function App() {
   return (
     <>
     <BrowserRouter>
-    <div>
+    <div className='Background'>
      <Navbar />
-     </div>
+     <div>
+     <Home />
       <About />
       <Programs />
+      </div>
+      <Footer />
+      </div>
      </BrowserRouter>
+    
      </>
     
   );
