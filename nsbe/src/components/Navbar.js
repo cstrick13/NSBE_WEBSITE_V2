@@ -8,6 +8,7 @@ import './Navbar.css'
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(false);
+  const [active,setActive] = useState(' ')
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -29,7 +30,7 @@ function Navbar() {
     <>
     <nav className='navbar'>
         <div className='navbar-container'>
-            <a href="#home" className="navbar-logo">
+            <a href="#home" className="navbar-logo" onClick={() => {setActive("");window.scrollTo(0,0)}}>
               <img src={logo} className='logo' />
             </a>
             <div className='menu-icon' onClick={handleClick}>

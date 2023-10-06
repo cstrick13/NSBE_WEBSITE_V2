@@ -8,7 +8,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import "./Home.css";
 
 
-const IMAGES = [nationals,nationals2];
+const IMAGES = [nationals2,nationals,newsBoard];
 
 function Home() {
   return (
@@ -18,20 +18,21 @@ function Home() {
         We are {' '}
         <span className='inner-text'>
           <Typewriter
-            words={['a Family', 'a Community', 'LaTech NSBE!']}
+            words={['Strong', 'United','Proud', 'LaTech NSBE!']}
             loop={true}
             cursor
             cursorStyle='|'
-            typeSpeed={110}
-            deleteSpeed={80}
-            delaySpeed={1500}
+            typeSpeed={250}
+            deleteSpeed={150}
+            delaySpeed={1200}
           />
         </span>
       </h1>
+      <div style={{maxWidth:"1200px", width:"100%", aspectRatio:"7/3", margin:"0 auto", position:"absolute"}}>
+        <ImageSlider imageUrls={IMAGES} />
     </div>
-    <div style={{maxWidth:"1200px", width:"100%",aspectRatio:"10/6", margin:"0 auto"}}>
-    <ImageSlider imageUrls={IMAGES} />
     </div>
+  
     </>
   )
 }

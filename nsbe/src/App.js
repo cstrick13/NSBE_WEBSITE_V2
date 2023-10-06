@@ -7,9 +7,8 @@ import Programs from './components/pages/Programs';
 import Footer from './components/pages/Footer';
 import Home from './components/pages/Home';
 
-function App() {
+const App = () => {
   return (
-    <>
     <BrowserRouter>
     <div className='Background'>
      <Navbar />
@@ -22,7 +21,6 @@ function App() {
       </div>
      </BrowserRouter>
     
-     </>
     
   );
 }
