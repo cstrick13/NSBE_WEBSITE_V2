@@ -1,6 +1,6 @@
 import React from 'react';
 import { nationals } from '../../assets';
-import { nationals2 } from '../../assets';
+import { nationals2,nationals3,nationals4 } from '../../assets';
 import { newsBoard } from '../../assets';
 import { SectionWrapper } from '../../hoc';
 import { ImageSlider } from '../ImageSlider';
@@ -8,7 +8,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import "./Home.css";
 
 
-const IMAGES = [nationals2,nationals,newsBoard];
+const IMAGES = [nationals2,nationals,newsBoard,nationals4];
 
 function Home() {
   return (
@@ -32,7 +32,8 @@ function Home() {
         <ImageSlider imageUrls={IMAGES}  />
         <div class="mission-section">
         <h1>Our Mission</h1>
-        <p class="mission-statement"> is to increase the number of culturally responsible Black engineers who excel academically, succeed professionally and positively impact the community</p>
+        <hr className='under-line'/>
+        <p class="mission-statement"> "is to increase the number of culturally responsible Black engineers who excel academically, succeed professionally and positively impact the community"</p>
     </div>
     </div>
     </div>

@@ -11,9 +11,10 @@
     text-align: center;
   }
   .image-slider {
-    max-width: 100%;
+    max-width: 1800px;
     width: 100%;
-    height: 450px;
+    aspect-ratio: 8/2;
+    object-fit: cover;
     margin: 0 auto;
     position: absolute;
     top:210px;
@@ -33,22 +34,39 @@
 }
 
 .mission-section {
-    padding: 10px;
+    padding: 30px;
     text-align: center;
 }
+.mission-section h1{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
 .mission-statement {
-    font-size: 24px;
+    padding: 40px;
+    font-size: 25px;
     color: #333;
     margin-bottom: 20px;
 }
 
+.under-line{
+    border: 2px solid rgb(0, 127, 95);
+    border-radius: 2px;
+}
+
 @media (max-width: 750px) {
-  .header-text {
+  .header-text{
     padding-bottom: 45rem;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
   }
+  .inner-text{
+    color: rgb(220,47,2);
+    font-size: 50px;
+    font-weight: bolder;
+}
+
   .image-slider {
     max-width: 1200px;
     width: 100%;
