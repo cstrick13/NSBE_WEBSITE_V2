@@ -18,18 +18,18 @@ function Home() {
         We are {' '}
         <span className='inner-text'>
           <Typewriter
-            words={['Strong', 'United','Proud', 'LaTech NSBE!']}
+            words={[ 'Strong','Proud','United','LaTech NSBE!']}
             loop={true}
             cursor
             cursorStyle='|'
-            typeSpeed={250}
-            deleteSpeed={150}
+            typeSpeed={100}
+            deleteSpeed={100}
             delaySpeed={1200}
           />
         </span>
       </h1>
-      <div style={{maxWidth:"1200px", width:"100%", aspectRatio:"7/3", margin:"0 auto", position:"absolute"}}>
-        <ImageSlider imageUrls={IMAGES} />
+      <div className="image-slider" style={{maxWidth:"1200px", width:"100%", aspectRatio:"5/2", margin:"0 auto", position:"absolute",top:"200px"}}>
+        <ImageSlider imageUrls={IMAGES}  />
     </div>
     </div>
   
