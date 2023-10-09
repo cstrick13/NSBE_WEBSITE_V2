@@ -30,7 +30,7 @@ function Navbar() {
     <>
     <nav className='navbar'>
         <div className='navbar-container'>
-            <a href="#home" className="navbar-logo" onClick={() => {setActive("");window.scrollTo(0,0)}}>
+            <a href="#home" className="navbar-logo" onClick={closeMobileMenu}>
               <img src={logo} className='logo' />
             </a>
             <div className='menu-icon' onClick={handleClick}>

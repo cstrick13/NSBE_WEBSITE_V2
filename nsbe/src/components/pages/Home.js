@@ -22,14 +22,18 @@ function Home() {
             loop={true}
             cursor
             cursorStyle='|'
-            typeSpeed={100}
-            deleteSpeed={100}
+            typeSpeed={350}
+            deleteSpeed={200}
             delaySpeed={1200}
           />
         </span>
       </h1>
-      <div className="image-slider" style={{maxWidth:"1200px", width:"100%", aspectRatio:"5/2", margin:"0 auto", position:"absolute",top:"200px"}}>
+      <div className="image-slider" >
         <ImageSlider imageUrls={IMAGES}  />
+        <div class="mission-section">
+        <h1>Our Mission</h1>
+        <p class="mission-statement"> is to increase the number of culturally responsible Black engineers who excel academically, succeed professionally and positively impact the community</p>
+    </div>
     </div>
     </div>
   

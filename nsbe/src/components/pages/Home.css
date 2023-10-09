@@ -10,6 +10,14 @@
     font-size: 70px;
     text-align: center;
   }
+  .image-slider {
+    max-width: 100%;
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    position: absolute;
+    top:210px;
+}
 
 .inner-text{
     color: rgb(220,47,2);
@@ -18,10 +26,20 @@
 }
 
 .slider-container {
-    max-width: 1200px;
+    max-width: 1600px;
     width: 100%;
-    height: 500px;
+    height: 400px;
     margin: 0 auto;
+}
+
+.mission-section {
+    padding: 10px;
+    text-align: center;
+}
+.mission-statement {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 750px) {
@@ -31,4 +49,11 @@
     font-size: 40px;
     text-align: center;
   }
+  .image-slider {
+    max-width: 1200px;
+    width: 100%;
+    height: 275px;
+    margin: 0 auto;
+    position: absolute;
+}
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState,useEffect } from "react";
-import {ArrowBigLeft,ArrowBigRight} from "lucide-react";
+import {ArrowBigLeft,ArrowBigRight,Circle,CircleDot} from "lucide-react";
 import "./ImageSlider.css"
 
 export function ImageSlider({ imageUrls }) {
@@ -21,7 +21,7 @@ export function ImageSlider({ imageUrls }) {
   }
 
   useEffect(() => {
-    const interval = setInterval(showNextImage, 3000); // Change slide every 3 seconds (adjust as needed)
+    const interval = setInterval(showNextImage, 5000); // Change slide every 3 seconds (adjust as needed)
     return () => clearInterval(interval); // Clean up the interval on component unmount
   }, []); 
 
@@ -44,6 +44,31 @@ export function ImageSlider({ imageUrls }) {
     <button onClick={showNextImage} className="img-slider-btn" style={{right:0}}>
         <ArrowBigRight/>
         </button>
+        <div
+        style={{
+          position: "absolute",
+          bottom: ".5rem",
+          left: "50%",
+          translate: "-50%",
+          display: "flex",
+          gap: ".25rem",
+        }}
+      >
+        {imageUrls.map((_, index) => (
+          <button
+            key={index}
+            className="img-slider-dot-btn"
+            aria-label={`View Image ${index + 1}`}
+            onClick={() => setImageIndex(index)}
+          >
+            {index === imageIndex ? (
+              <CircleDot aria-hidden />
+            ) : (
+              <Circle aria-hidden />
+            )}
+          </button>
+        ))}
+      </div>
   </div>
   );
 };
