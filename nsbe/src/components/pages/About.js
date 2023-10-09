@@ -1,61 +1,29 @@
 import React from 'react'
 import "./About.css";
 import { SectionWrapper } from '../../hoc';
-import { react } from '../../assets';
+
 
 function About() {
   return (
-    <div>
-      <p>About</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-      <p>1</p>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi reiciendis cupiditate in reprehenderit quaerat ullam obcaecati consequuntur, quidem quasi eaque, facere non similique dolor id quo vel adipisci autem ducimus quae, facilis eius exercitationem eum quis labore? Maiores molestiae, repellendus inventore doloribus ipsa architecto nemo necessitatibus, dignissimos, consequuntur libero laborum.</h1>
+    <>
+    <div class="section">
+      <div className='container'>
+        <div className='banner'>
+          <div className='banner-text'>
+            <h2>ABOUT US</h2>
+          </div>
+        </div>
+        <div className='content-section'>
+          <div className='title'>
+            <h1>Lousiana Tech Chapter</h1>
+          </div>
+          <div className='title'>
+            <h1>Region 5</h1>
+          </div>
+        </div>
+      </div>
     </div>
-    
+    </>
   )
 }
 
