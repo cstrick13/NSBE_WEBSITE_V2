@@ -9,7 +9,7 @@ export const navLinks = [
     },
     {
       id: "calendar",
-      title: "Calendar",
+      title: "Events",
     },
     {
       id: "donation",

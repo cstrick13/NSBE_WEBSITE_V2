@@ -7,7 +7,7 @@ import { nationals } from '../../assets';
 function About() {
   return (
     <>
-    <div class="section">
+    <div className="section">
       <div className='container'>
         <div className='content-section'>
           <div className='title'>
@@ -28,7 +28,6 @@ function About() {
         </div>
       </div>
       <div className='image-section'>
-        <img src={nationals} />
       </div>
     </div>
     </>

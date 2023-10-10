@@ -2,7 +2,7 @@
 
 .section{
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     background-color: rgb(195, 47, 39);
 }
 
@@ -65,9 +65,7 @@
         float:none;
         width: 100%;
         display: block;
-        margin:  auto 0;
-        left: 20px;
-   
+        margin: auto;
     }
     .content-section .title{
         text-align: center;
