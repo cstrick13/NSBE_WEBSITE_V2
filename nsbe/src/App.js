@@ -12,12 +12,12 @@ const App = () => {
   return (
     <BrowserRouter>
     <div className='Background'>
-     <Navbar/>
+     <Navbar />
      <div>
-     <Home/>
-      <About/>
-      <Calendar/>
-      <Programs/>
+     <Home />
+      <About />
+      <Programs />
+      <Calendar />
       </div>
       <Footer />
       </div>
