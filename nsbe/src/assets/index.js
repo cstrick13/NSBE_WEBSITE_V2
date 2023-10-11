@@ -1,8 +1,10 @@
 import logo from './nsbe-logo.png';
-import img1 from './img1.jpg'
-import img2 from './img2.jpg'
-import img3 from './img3.jpg'
-import img4 from './img4.jpg'
+import img1 from './img1.jpg';
+import img2 from './img2.jpg';
+import img3 from './img3.jpg';
+import img4 from './img4.jpg';
+import fire from "./fire.png";
+import bulldog from "./bulldog.png";
 
 import nationals from './carousel/Nationals1.jpg';
 import nationals2 from './carousel/Nationals2.jpg';
@@ -17,6 +19,8 @@ export{
     img2,
     img3,
     img4,
+    fire,
+    bulldog,
     nationals,
     nationals2,
     nationals3,

@@ -7,6 +7,7 @@ import Calendar from './components/pages/Calendar';
 import Programs from './components/pages/Programs';
 import Footer from './components/pages/Footer';
 import Home from './components/pages/Home';
+import AboutCards from './components/pages/AboutCards';
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
      <Navbar/>
      <div>
      <Home/>
-      <About/>
+     <AboutCards/>
       <Calendar/>
       <Programs/>
       </div>
