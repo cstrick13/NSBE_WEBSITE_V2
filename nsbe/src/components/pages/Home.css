@@ -13,9 +13,9 @@
   }
   .image-slider {
     max-width: 1800px;
-    width: 100%;
-    aspect-ratio: 8/2;
+    width: 1200px;
     object-fit: cover;
+    height: 500px;
     margin: 0 auto;
     position: absolute;
     top:210px;
@@ -45,7 +45,7 @@
     font-weight: bold;
 }
 .mission-statement {
-    padding: 30px;
+    padding: 20px;
     font-size: 25px;
     color: #333;
     margin-bottom: 20px;
@@ -60,12 +60,12 @@
   .header-text{
     padding-bottom: 45rem;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
   }
   .inner-text{
     color: rgb(220,47,2);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
@@ -75,5 +75,17 @@
     height: 275px;
     margin: 0 auto;
     position: absolute;
+}
+.mission-section {
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+}
+.mission-statement {
+    padding: 20px;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
 }
 }

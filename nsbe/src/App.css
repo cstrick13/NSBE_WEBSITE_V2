@@ -9,6 +9,12 @@
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
   }
+
+
   .Background{
     background-color: rgb(255, 255, 255);
+  }
+
+  #root{
+    width: 100%;
   }

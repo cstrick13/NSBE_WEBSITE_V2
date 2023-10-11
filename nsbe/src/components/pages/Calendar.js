@@ -7,71 +7,69 @@ import { SectionWrapper } from '../../hoc';
 function Calendar() {
   return (
     <>
-     <div class="container">
-        <div class="item-container">
-            <div class="img-container">
+     <div className="container-1">
+        <div className="item-container">
+            <div className="img-container">
                 <img src={img1} alt="Event image" />
             </div>
-            <div class="body-container">
-                <div class="overlay"></div>
+            <div className="body-container">
+                <div className="overlay"></div>
 
-                <div class="event-info">
-                    <p class="title">Study Jams</p>
-                    <div class="separator"></div>
-                    <p class="info">Tues/Thurs</p>
-                    <p class="price">Tutoring</p>
+                <div className="event-info">
+                    <p className="title">Study Jams</p>
+                    <div className="separator"></div>
+                    <p className="info">Tues/Thurs</p>
+                    <p className="price">Tutoring</p>
 
-                    <div class="additional-info">
-                        <p class="info">
-                            <i class="fas fa-map-marker-alt"></i>
+                    <div className="additional-info">
+                        <p className="info">
+                            <i className="fas fa-map-marker-alt"></i>
                             IESB 220
                         </p>
-                        <p class="info">
-                            <i class="far fa-calendar-alt"></i>
+                        <p className="info">
+                            <i className="far fa-calendar-alt"></i>
                             Every Tuesday and Thursday, 7pm
                         </p>
 
-                        <p class="info description">
+                        <p className="info description">
                             Study Jams someruigbyrgfuicbjnjz cjk ckl ckdsm c;kmcl;
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="item-container">
-            <div class="img-container">
-                <img src={img2} alt="Event image" />
+        <div className="item-container">
+            <div className="img-container">
+                <img src={img1} alt="Event image" />
             </div>
+            <div className="body-container">
+                <div className="overlay"></div>
 
-            <div class="body-container">
-                <div class="overlay"></div>
+                <div className="event-info">
+                    <p className="title">Study Jams</p>
+                    <div className="separator"></div>
+                    <p className="info">Tues/Thurs</p>
+                    <p className="price">Tutoring</p>
 
-                <div class="event-info">
-                    <p class="title">FRC</p>
-                    <div class="separator"></div>
-                    <p class="info">New Orleans,LA</p>
-                    <p class="price">Conference</p>
-
-                    <div class="additional-info">
-                        <p class="info">
-                            <i class="fas fa-map-marker-alt"></i>
-                            245 W 52nd St, New York
+                    <div className="additional-info">
+                        <p className="info">
+                            <i className="fas fa-map-marker-alt"></i>
+                            IESB 220
                         </p>
-                        <p class="info">
-                            <i class="far fa-calendar-alt"></i>
-                            At some time
+                        <p className="info">
+                            <i className="far fa-calendar-alt"></i>
+                            Every Tuesday and Thursday, 7pm
                         </p>
 
-                        <p class="info description">
-                            Welcome! Everyone has a unique perspective after reading a book, and we would love you
-                            to share yours with us! We meet one Sunday evening 
+                        <p className="info description">
+                            Study Jams someruigbyrgfuicbjnjz cjk ckl ckdsm c;kmcl;
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
     </>
   )
 }
