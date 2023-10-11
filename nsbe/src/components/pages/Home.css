@@ -6,13 +6,13 @@
   
   .header-text {
     padding-bottom: 45rem;
-    font-weight: normal;
-    font-size: 70px;
+    font-weight: 600;
+    font-size: 65px;
     text-align: center;
     color: black;
   }
   .image-slider {
-    max-width: 1800px;
+    max-width: 100%;
     width: 100%;
     aspect-ratio: 8/2;
     object-fit: cover;
@@ -22,9 +22,9 @@
 }
 
 .inner-text{
-    color: rgb(220,47,2);
-    font-size: 70px;
-    font-weight: bolder;
+    color: rgb(232, 93, 4);
+    font-size: 80px;
+    font-weight: 900;
 }
 
 .slider-container {
@@ -45,7 +45,7 @@
     font-weight: bold;
 }
 .mission-statement {
-    padding: 30px;
+    padding: 20px;
     font-size: 25px;
     color: #333;
     margin-bottom: 20px;

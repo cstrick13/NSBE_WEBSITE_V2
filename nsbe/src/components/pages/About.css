@@ -2,7 +2,7 @@
 
 .section{
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     background-color: rgb(195, 47, 39);
 }
 
@@ -10,12 +10,12 @@
     width: 80%;
     display: block;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .content-section{
     float: left;
-    width: 55%;
+    width: 60%;
     color: rgb(255, 240, 242);
 }
 

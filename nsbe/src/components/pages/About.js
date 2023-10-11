@@ -8,6 +8,7 @@ function About() {
   return (
     <>
     <div className="section">
+      
       <div className='container'>
         <div className='content-section'>
           <div className='title'>
