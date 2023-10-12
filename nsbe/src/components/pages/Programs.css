@@ -43,7 +43,7 @@
     overflow: hidden;
     cursor: pointer;
     border: 5px solid #fff;
-    left: 225px;
+    right:-25%;
     margin-bottom: 20px;
  }
  .card-team2{
@@ -52,7 +52,8 @@
     overflow: hidden;
     cursor: pointer;
     border: 5px solid #fff;
-    right: -250px;
+    left: 30%;
+
     margin-bottom: 20px;
  }
 

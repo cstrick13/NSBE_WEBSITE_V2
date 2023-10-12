@@ -8,7 +8,7 @@ function Programs() {
     <>
     <div className='body-team'>
       <div className='team'>
-        <h1>CEB Memebers</h1>
+        <h1>CEB Members</h1>
         <div className='content-team-top'>
         <div className='card-team1'>
             <div className='box-team'>
