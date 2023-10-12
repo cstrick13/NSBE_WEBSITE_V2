@@ -15,7 +15,7 @@ function Programs() {
                   <img src={cory} />
             </div>
             <div className='info-team'>
-              <div className='name-team'>FULL NAME</div>
+              <div className='name-team'>Kristen Steelman</div>
               <div className='details-team'>CEB POsition</div>
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
@@ -25,7 +25,7 @@ function Programs() {
                   <img src={cory} />
             </div>
             <div className='info-team'>
-              <div className='name-team'>FULL NAME</div>
+              <div className='name-team'>Treymond Thompson</div>
               <div className='details-team'>CEB POsition</div>
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
@@ -95,7 +95,7 @@ function Programs() {
                   <img src={cory} />
             </div>
             <div className='info-team'>
-              <div className='name-team'>Long Nammmmmmmee</div>
+              <div className='name-team'>Longggggggg Nammmmmmmee</div>
               <div className='details-team'>CEB POsition</div>
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
@@ -120,7 +120,16 @@ function Programs() {
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
           </div>
-
+          <div className='card-team'>
+            <div className='box-team'>
+                  <img src={cory} />
+            </div>
+            <div className='info-team'>
+              <div className='name-team'>FULL NAME</div>
+              <div className='details-team'>CEB POsition</div>
+              <div className='emails-team'>nsbe.latech.blajh</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

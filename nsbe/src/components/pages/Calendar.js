@@ -40,7 +40,7 @@ function Calendar() {
         </div>
         <div className="item-container">
             <div className="img-container">
-                <img src={img1} alt="Event image" />
+                <img src={img2} alt="Event image" />
             </div>
             <div className="body-container">
                 <div className="overlay"></div>
