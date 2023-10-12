@@ -32,6 +32,29 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.content-team-top{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card-team1{
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    border: 5px solid #fff;
+    left: 225px;
+    margin-bottom: 20px;
+ }
+ .card-team2{
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    border: 5px solid #fff;
+    right: -250px;
+    margin-bottom: 20px;
+ }
 
 .card-team{
    position: relative;
@@ -40,7 +63,7 @@
    cursor: pointer;
    border: 5px solid #fff;
    
-   margin-bottom: 20px;
+   margin-bottom: 20px
 }
 
 .box-team img{
@@ -91,17 +114,19 @@
     transition: all .3s ease .8s;
 }
 
-.card-team:hover .info-team{
+.card-team:hover .info-team,.card-team1:hover .info-team,.card-team2:hover .info-team{
     transform: scale(1,1);
     transform-origin: left;
 
 }
-.card-team:hover .info-team .name-team,.card-team:hover .info-team .details-team,.card-team:hover .info-team .emails-team{
+.card-team:hover .info-team .name-team,.card-team:hover .info-team .details-team,.card-team:hover .info-team .emails-team,
+.card-team1:hover .info-team .name-team,.card-team1:hover .info-team .details-team,.card-team1:hover .info-team .emails-team,
+.card-team2:hover .info-team .name-team,.card-team2:hover .info-team .details-team,.card-team2:hover .info-team .emails-team{
     transform: translateY(0);
     opacity: 1;
 }
 
-@media screen and  (max-width: 780px) {  /* Adjust this breakpoint as per your needs */
+@media screen and  (max-width: 1090px) {  /* Adjust this breakpoint as per your needs */
     .team h1{
         font-size: 30px;
     }
@@ -117,4 +142,8 @@
         font-size: 12px;
         font-weight: 500;
     }
+    .card-team1,.card-team2{
+        left: -10px;
+    }
+    
 }

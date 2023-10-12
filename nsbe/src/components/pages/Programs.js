@@ -9,8 +9,8 @@ function Programs() {
     <div className='body-team'>
       <div className='team'>
         <h1>CEB Memebers</h1>
-        <div className='content-team'>
-          <div className='card-team'>
+        <div className='content-team-top'>
+        <div className='card-team1'>
             <div className='box-team'>
                   <img src={female} />
             </div>
@@ -20,16 +20,18 @@ function Programs() {
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
           </div>
-          <div className='card-team'>
+          <div className='card-team2'>
             <div className='box-team'>
                   <img src={male} />
             </div>
             <div className='info-team'>
-              <div className='name-team'>Joseph Johnson</div>
+              <div className='name-team'>Joeseph Johnson</div>
               <div className='details-team'>Vice-President</div>
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
           </div>
+        </div>
+        <div className='content-team'>
           <div className='card-team'>
             <div className='box-team'>
                   <img src={male} />
@@ -96,16 +98,6 @@ function Programs() {
             </div>
             <div className='info-team'>
               <div className='name-team'>Makayla Isaac</div>
-              <div className='details-team'>CEB Position</div>
-              <div className='emails-team'>nsbe.latech.blajh</div>
-            </div>
-          </div>
-          <div className='card-team'>
-            <div className='box-team'>
-                  <img src={female} />
-            </div>
-            <div className='info-team'>
-              <div className='name-team'>Mine Regha</div>
               <div className='details-team'>CEB Position</div>
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
