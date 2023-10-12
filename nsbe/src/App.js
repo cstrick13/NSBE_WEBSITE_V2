@@ -6,6 +6,7 @@ import Calendar from './components/pages/Calendar';
 import Programs from './components/pages/Programs';
 import Footer from './components/pages/Footer';
 import Home from './components/pages/Home';
+import Member from './components/pages/Member';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <About />
       <Calendar />
       <Programs />
+      <Member/>
       </div>
       <Footer />
      </BrowserRouter>
