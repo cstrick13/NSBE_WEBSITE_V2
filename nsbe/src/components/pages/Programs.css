@@ -35,6 +35,7 @@
 .content-team-top{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 .card-team1{
@@ -43,7 +44,7 @@
     overflow: hidden;
     cursor: pointer;
     border: 5px solid #fff;
-    right:-25%;
+    right:1%;
     margin-bottom: 20px;
  }
  .card-team2{
@@ -52,7 +53,7 @@
     overflow: hidden;
     cursor: pointer;
     border: 5px solid #fff;
-    left: 30%;
+    left: 1%;
 
     margin-bottom: 20px;
  }
