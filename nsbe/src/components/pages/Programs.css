@@ -1,0 +1,119 @@
+.body-team{
+    background: linear-gradient(90deg ,#9d0208 0%, #ef233c 71%, #d90429 100% );
+    font-family: "Poppins", sans-serif;
+}
+
+.team{
+    padding: 25px 100px;
+    text-align: center;
+}
+
+.team h1{
+    font-size: 45px;
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 50px;
+    padding-bottom:15px
+}
+
+.team h1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width:150px;
+    height:3px;
+    transform: translateX(-50%);
+    background-color: #fff;
+}
+.content-team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-team{
+   position: relative;
+   border-radius: 50%;
+   overflow: hidden;
+   cursor: pointer;
+   border: 5px solid #fff;
+   margin-bottom: 20px;
+}
+
+.box-team img{
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+}
+
+
+.info-team{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: #fff24381;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    transform: scale(0,0);
+    transform-origin: right;
+    transition: all .5s ease-in-out;
+}
+.info-team .name-team{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all .3s ease .4s;
+}
+
+.info-team .details-team{
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all .3s ease .6s;
+}
+.info-team .emails-team{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all .3s ease .8s;
+}
+
+.card-team:hover .info-team{
+    transform: scale(1,1);
+    transform-origin: left;
+
+}
+.card-team:hover .info-team .name-team,.card-team:hover .info-team .details-team,.card-team:hover .info-team .emails-team{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+@media screen and  (max-width: 768px) {  /* Adjust this breakpoint as per your needs */
+    .team h1{
+        font-size: 30px;
+    }
+    .info-team .name-team{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .info-team .details-team{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .info-team .emails-team{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
