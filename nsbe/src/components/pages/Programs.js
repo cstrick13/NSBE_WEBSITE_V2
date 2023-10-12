@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionWrapper } from '../../hoc';
-import { img4,cory } from '../../assets';
+import { img4,cory,male,female} from '../../assets';
 import "./Programs.css"
 
 function Programs() {
@@ -12,77 +12,7 @@ function Programs() {
         <div className='content-team'>
           <div className='card-team'>
             <div className='box-team'>
-                  <img src={cory} />
-            </div>
-            <div className='info-team'>
-              <div className='name-team'>Kristen Steelman</div>
-              <div className='details-team'>CEB POsition</div>
-              <div className='emails-team'>nsbe.latech.blajh</div>
-            </div>
-          </div>
-          <div className='card-team'>
-            <div className='box-team'>
-                  <img src={cory} />
-            </div>
-            <div className='info-team'>
-              <div className='name-team'>Treymond Thompson</div>
-              <div className='details-team'>CEB POsition</div>
-              <div className='emails-team'>nsbe.latech.blajh</div>
-            </div>
-          </div>
-          <div className='card-team'>
-            <div className='box-team'>
-                  <img src={cory} />
-            </div>
-            <div className='info-team'>
-              <div className='name-team'>FULL NAME</div>
-              <div className='details-team'>CEB POsition</div>
-              <div className='emails-team'>nsbe.latech.blajh</div>
-            </div>
-          </div>
-          <div className='card-team'>
-            <div className='box-team'>
-                  <img src={cory} />
-            </div>
-            <div className='info-team'>
-              <div className='name-team'>FULL NAME</div>
-              <div className='details-team'>CEB POsition</div>
-              <div className='emails-team'>nsbe.latech.blajh</div>
-            </div>
-          </div>
-          <div className='card-team'>
-            <div className='box-team'>
-                  <img src={cory} />
-            </div>
-            <div className='info-team'>
-              <div className='name-team'>FULL NAME</div>
-              <div className='details-team'>CEB POsition</div>
-              <div className='emails-team'>nsbe.latech.blajh</div>
-            </div>
-          </div>
-          <div className='card-team'>
-            <div className='box-team'>
-                  <img src={cory} />
-            </div>
-            <div className='info-team'>
-              <div className='name-team'>FULL NAME</div>
-              <div className='details-team'>CEB POsition</div>
-              <div className='emails-team'>nsbe.latech.blajh</div>
-            </div>
-          </div>
-          <div className='card-team'>
-            <div className='box-team'>
-                  <img src={cory} />
-            </div>
-            <div className='info-team'>
-              <div className='name-team'>Cory Strickland</div>
-              <div className='details-team'>Telecoms Chair</div>
-              <div className='emails-team'>nsbe.latech.blajh</div>
-            </div>
-          </div>
-          <div className='card-team'>
-            <div className='box-team'>
-                  <img src={cory} />
+                  <img src={female} />
             </div>
             <div className='info-team'>
               <div className='name-team'>Liliane Lavine</div>
@@ -92,41 +22,111 @@ function Programs() {
           </div>
           <div className='card-team'>
             <div className='box-team'>
-                  <img src={cory} />
+                  <img src={male} />
             </div>
             <div className='info-team'>
-              <div className='name-team'>Longggggggg Nammmmmmmee</div>
-              <div className='details-team'>CEB POsition</div>
+              <div className='name-team'>Joseph Johnson</div>
+              <div className='details-team'>Vice-President</div>
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
           </div>
           <div className='card-team'>
             <div className='box-team'>
-                  <img src={cory} />
+                  <img src={male} />
             </div>
             <div className='info-team'>
-              <div className='name-team'>FULL NAME</div>
-              <div className='details-team'>CEB POsition</div>
+              <div className='name-team'>Alvin Kie</div>
+              <div className='details-team'>CEB Position</div>
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
           </div>
           <div className='card-team'>
             <div className='box-team'>
-                  <img src={cory} />
+                  <img src={male} />
             </div>
             <div className='info-team'>
-              <div className='name-team'>FULL NAME</div>
-              <div className='details-team'>CEB POsition</div>
+              <div className='name-team'>Cory Strickland</div>
+              <div className='details-team'>Telecoms</div>
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
           </div>
           <div className='card-team'>
             <div className='box-team'>
-                  <img src={cory} />
+                  <img src={male} />
             </div>
             <div className='info-team'>
-              <div className='name-team'>FULL NAME</div>
-              <div className='details-team'>CEB POsition</div>
+              <div className='name-team'>Daniel Davis</div>
+              <div className='details-team'>CEB Position</div>
+              <div className='emails-team'>nsbe.latech.blajh</div>
+            </div>
+          </div>
+          <div className='card-team'>
+            <div className='box-team'>
+                  <img src={female} />
+            </div>
+            <div className='info-team'>
+              <div className='name-team'>Janae Dotson</div>
+              <div className='details-team'>CEB Position</div>
+              <div className='emails-team'>nsbe.latech.blajh</div>
+            </div>
+          </div>
+          <div className='card-team'>
+            <div className='box-team'>
+                  <img src={female} />
+            </div>
+            <div className='info-team'>
+              <div className='name-team'>Kelsie Cubert</div>
+              <div className='details-team'>CEB Position</div>
+              <div className='emails-team'>nsbe.latech.blajh</div>
+            </div>
+          </div>
+          <div className='card-team'>
+            <div className='box-team'>
+                  <img src={female} />
+            </div>
+            <div className='info-team'>
+              <div className='name-team'>Kristen Steelman</div>
+              <div className='details-team'>CEB Positiont</div>
+              <div className='emails-team'>nsbe.latech.blajh</div>
+            </div>
+          </div>
+          <div className='card-team'>
+            <div className='box-team'>
+                  <img src={female} />
+            </div>
+            <div className='info-team'>
+              <div className='name-team'>Makayla Isaac</div>
+              <div className='details-team'>CEB Position</div>
+              <div className='emails-team'>nsbe.latech.blajh</div>
+            </div>
+          </div>
+          <div className='card-team'>
+            <div className='box-team'>
+                  <img src={female} />
+            </div>
+            <div className='info-team'>
+              <div className='name-team'>Mine Regha</div>
+              <div className='details-team'>CEB Position</div>
+              <div className='emails-team'>nsbe.latech.blajh</div>
+            </div>
+          </div>
+          <div className='card-team'>
+            <div className='box-team'>
+                  <img src={male} />
+            </div>
+            <div className='info-team'>
+              <div className='name-team'>Tremond Thompson</div>
+              <div className='details-team'>CEB Position</div>
+              <div className='emails-team'>nsbe.latech.blajh</div>
+            </div>
+          </div>
+          <div className='card-team'>
+            <div className='box-team'>
+                  <img src={male} />
+            </div>
+            <div className='info-team'>
+              <div className='name-team'>Wade Caskey</div>
+              <div className='details-team'>CEB Position</div>
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
           </div>

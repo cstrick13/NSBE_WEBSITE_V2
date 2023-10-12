@@ -6,6 +6,8 @@ import img4 from './img4.jpg'
 import fire from "./fire.png"
 import bulldog from "./bulldog.png"
 import cory from "./cory.png";
+import male from "./man.jpg";
+import female from "./woman.jpg";
 
 import nationals from './carousel/Nationals1.jpg';
 import nationals2 from './carousel/Nationals2.jpg';
@@ -23,6 +25,8 @@ export{
     bulldog,
     fire,
     cory,
+    male,
+    female,
     nationals,
     nationals2,
     nationals3,

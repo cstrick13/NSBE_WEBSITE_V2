@@ -9,7 +9,7 @@
 }
 
 .team h1{
-    font-size: 45px;
+    font-size: 50px;
     position: relative;
     color: #fff;
     font-weight: 600;
@@ -30,7 +30,7 @@
 .content-team{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .card-team{
@@ -39,7 +39,7 @@
    overflow: hidden;
    cursor: pointer;
    border: 5px solid #fff;
-   margin: 5px;
+   
    margin-bottom: 20px;
 }
 
@@ -101,7 +101,7 @@
     opacity: 1;
 }
 
-@media screen and  (max-width: 768px) {  /* Adjust this breakpoint as per your needs */
+@media screen and  (max-width: 780px) {  /* Adjust this breakpoint as per your needs */
     .team h1{
         font-size: 30px;
     }

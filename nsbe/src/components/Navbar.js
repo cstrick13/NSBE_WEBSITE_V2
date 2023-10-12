@@ -14,7 +14,7 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
-    if (window.innerWidth <= 780) {
+    if (window.innerWidth <= 1345) {
       setButton(false);
     } else {
       setButton(true);
@@ -38,7 +38,7 @@ function Navbar() {
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           {navLinks.map((link) => (
-            <li key={link.id} onClick={closeMobileMenu} className='nav-item'>
+            <li key={link.id} onClick={closeMobileMenu} className={`${ active === link.title ? 'nav-item ' :"text-slate-300"}`}>
               <a href={`#${link.id}`} className='nav-links'>{link.title}</a>
             </li>
             

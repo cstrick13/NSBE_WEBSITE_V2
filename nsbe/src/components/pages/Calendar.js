@@ -7,7 +7,11 @@ import { SectionWrapper } from '../../hoc';
 function Calendar() {
   return (
     <>
+    <div className='header-text-Events'>
+    <h1>Events</h1>
+    </div>
      <div className="container-1">
+        
         <div className="item-container">
             <div className="img-container">
                 <img src={img1} alt="Event image" />

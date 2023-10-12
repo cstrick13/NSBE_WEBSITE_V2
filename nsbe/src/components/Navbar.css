@@ -76,7 +76,7 @@
     display: none;
   }
   
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1345px) {
 
   
     .nav-menu {
