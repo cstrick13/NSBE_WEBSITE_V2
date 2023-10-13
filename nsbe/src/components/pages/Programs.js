@@ -69,7 +69,7 @@ function Programs() {
             <div className='info-team'>
               <div className='name-team'>Janae Dotson</div>
               <div className='details-team'>CEB Position</div>
-              <div className='emails-team'>nsbe.latech.blajh</div>
+              <div className='emails-team'>nsbe.latech@gmail.com</div>
             </div>
           </div>
           <div className='card-team'>

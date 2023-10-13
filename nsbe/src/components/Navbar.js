@@ -12,6 +12,10 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  const memberForm = () => {
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeSoN8FyS9OYPtnnSah0_JSK28qi5c-iHbGFYfD3nG6H6-nEw/viewform?usp=sf_link";
+  };
+
 
   const showButton = () => {
     if (window.innerWidth <= 1345) {
@@ -51,7 +55,7 @@ function Navbar() {
                 Become a Member
               </a>
         </ul>
-        {button && <Button buttonStyle='btn--outline'>Become a member</Button>}
+        {button && <Button onClick={memberForm} buttonStyle='btn--outline'>Become a member</Button>}
         </div>
     </nav>
     </>

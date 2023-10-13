@@ -18,7 +18,6 @@ const App = () => {
       <About />
       <Calendar />
       <Programs />
-      <Member/>
       </div>
       <Footer />
      </BrowserRouter>
