@@ -1,0 +1,23 @@
+.footer-icons i {
+    padding: 0.4rem 0.5rem;
+    background: #e1e1e1;
+    color: #f60838;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+  }
+  
+  .footer-icons i:hover {
+    background: #f60838;
+    color: #fff;
+    transition: 0.6s;
+    cursor: pointer;
+  }
+
+  .footer-section-padding{
+    padding: 4rem 4rem;
+  }
+
+  .footer{
+    background-color: #2d2d32;
+  }
+  
