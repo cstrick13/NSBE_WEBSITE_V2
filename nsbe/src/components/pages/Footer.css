@@ -25,7 +25,7 @@
   }
 
   .footer{
-    background-color: #2d2d32;
+    background-color: white;
   }
   .sb_footer {
     display: flex;
@@ -47,7 +47,7 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    color: white;
+    color: black;
   }
   .footer-links-div h4{
     font-size: 18px;
@@ -72,10 +72,10 @@
     font-size: 13px;
     line-height: 15px;
     margin-left: 2rem;
-    color: white;
+    color: black;
     font-weight: 600;
   }
   hr{
-    color: white !important;
+    color: black !important;
     width: 100%;
   }

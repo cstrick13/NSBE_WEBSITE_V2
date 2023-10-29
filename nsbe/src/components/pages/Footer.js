@@ -29,6 +29,13 @@ const Footer = () => {
                                 <i class="fa-brands fa-tiktok"></i>
                             </div>
                     </div>
+                    <div className='footer-links-div'>
+                        <h4>Donate</h4>
+                        <div className="footer-icons">
+                                <i class="fa-brands fa-paypal"></i>
+                                <i class="fa-brands fa-vimeo"></i>
+                            </div>
+                    </div>
                 </div>
                 <hr></hr>
                 <div className='footer-below'>

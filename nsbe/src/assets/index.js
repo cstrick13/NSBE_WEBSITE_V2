@@ -12,6 +12,10 @@ import female from "./woman.jpg";
 import lili from './headshots/Lili.jpg'
 import joe from "./headshots/joe.jpg"
 import cory from "./headshots/cory.jpg"
+import alvin from "./headshots/alvin.jpg"
+import makayla from "./headshots/makayla.jpg"
+import trey from "./headshots/trey.jpg"
+import wade from "./headshots/wade.jpg"
 
 import nationals from './carousel/Nationals1.jpg';
 import nationals2 from './carousel/Nationals2.jpg';
@@ -38,5 +42,9 @@ export{
     nationals3,
     nationals4,
     newsBoard,
+    alvin,
+    wade,
+    makayla,
+    trey
     //snowflake
 };

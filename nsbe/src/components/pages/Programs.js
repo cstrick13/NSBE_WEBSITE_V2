@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionWrapper } from '../../hoc';
-import { img4,cory,male,female, lili, joe} from '../../assets';
+import { img4,cory,male,female, lili, joe, alvin, makayla, trey, wade} from '../../assets';
 import "./Programs.css"
 
 function Programs() {
@@ -34,7 +34,7 @@ function Programs() {
         <div className='content-team'>
           <div className='card-team'>
             <div className='box-team'>
-                  <img src={male} />
+                  <img src={alvin} />
             </div>
             <div className='info-team'>
               <div className='name-team'>Alvin Kie</div>
@@ -94,7 +94,7 @@ function Programs() {
           </div>
           <div className='card-team'>
             <div className='box-team'>
-                  <img src={female} />
+                  <img src={makayla} />
             </div>
             <div className='info-team'>
               <div className='name-team'>Makayla Isaac</div>
@@ -104,7 +104,7 @@ function Programs() {
           </div>
           <div className='card-team'>
             <div className='box-team'>
-                  <img src={male} />
+                  <img src={trey} />
             </div>
             <div className='info-team'>
               <div className='name-team'>Tremond Thompson</div>
@@ -114,7 +114,7 @@ function Programs() {
           </div>
           <div className='card-team'>
             <div className='box-team'>
-                  <img src={male} />
+                  <img src={wade} />
             </div>
             <div className='info-team'>
               <div className='name-team'>Wade Caskey</div>

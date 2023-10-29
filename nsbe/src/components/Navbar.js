@@ -43,7 +43,7 @@ function Navbar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           {navLinks.map((link) => (
             <li key={link.id} onClick={closeMobileMenu} className={`${ active === link.title ? 'nav-item ' :"text-slate-300"}`}>
-              <a href={`#${link.id}`} className='nav-links'>{link.title}</a>
+              <a href={`#${link.id}`} onClick={link.onclick} className='nav-links'>{link.title}</a>
             </li>
             
           ))}
