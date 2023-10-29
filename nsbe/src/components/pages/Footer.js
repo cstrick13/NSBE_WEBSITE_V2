@@ -32,8 +32,12 @@ const Footer = () => {
                     <div className='footer-links-div'>
                         <h4>Donate</h4>
                         <div className="footer-icons">
+                            <a href="https://paypal.me/LaTechNSBE?country.x=US&locale.x=en_US " target="_blank">
                                 <i class="fa-brands fa-paypal"></i>
+                            </a>
+                            <a href="https://venmo.com/u/Liliane-Lavine-1" target="_blank">
                                 <i class="fa-brands fa-vimeo"></i>
+                            </a>
                             </div>
                     </div>
                 </div>
