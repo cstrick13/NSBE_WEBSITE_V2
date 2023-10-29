@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionWrapper } from '../../hoc';
-import { img4,cory,male,female} from '../../assets';
+import { img4,cory,male,female, lili, joe} from '../../assets';
 import "./Programs.css"
 
 function Programs() {
@@ -12,7 +12,7 @@ function Programs() {
         <div className='content-team-top'>
         <div className='card-team1'>
             <div className='box-team'>
-                  <img src={female} />
+                  <img src={lili} />
             </div>
             <div className='info-team'>
               <div className='name-team'>Liliane Lavine</div>
@@ -22,7 +22,7 @@ function Programs() {
           </div>
           <div className='card-team2'>
             <div className='box-team'>
-                  <img src={male} />
+                  <img src={joe} />
             </div>
             <div className='info-team'>
               <div className='name-team'>Joeseph Johnson</div>
@@ -44,7 +44,7 @@ function Programs() {
           </div>
           <div className='card-team'>
             <div className='box-team'>
-                  <img src={male} />
+                  <img src={cory} />
             </div>
             <div className='info-team'>
               <div className='name-team'>Cory Strickland</div>

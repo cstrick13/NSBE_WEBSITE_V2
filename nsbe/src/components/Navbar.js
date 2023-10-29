@@ -50,7 +50,7 @@ function Navbar() {
              <a
                 href="#Member"
                 className='nav-links-mobile'
-                onClick={closeMobileMenu}
+                onClick={memberForm}
               >
                 Become a Member
               </a>

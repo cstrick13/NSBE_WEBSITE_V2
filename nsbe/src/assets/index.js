@@ -4,10 +4,14 @@ import img2 from './img2.jpg'
 import img3 from './img3.jpg'
 import img4 from './img4.jpg'
 import fire from "./fire.png"
+//import snowflake from "./snowflake.png"
 import bulldog from "./bulldog.png"
-import cory from "./cory.png";
 import male from "./man.jpg";
 import female from "./woman.jpg";
+
+import lili from './headshots/Lili.jpg'
+import joe from "./headshots/joe.jpg"
+import cory from "./headshots/cory.jpg"
 
 import nationals from './carousel/Nationals1.jpg';
 import nationals2 from './carousel/Nationals2.jpg';
@@ -18,18 +22,21 @@ import newsBoard from './carousel/NewBoard.jpg';
 
 export{
     logo,
+    lili,
+    joe,
+    cory,
     img1,
     img2,
     img3,
     img4,
     bulldog,
     fire,
-    cory,
     male,
     female,
     nationals,
     nationals2,
     nationals3,
     nationals4,
-    newsBoard
+    newsBoard,
+    //snowflake
 };

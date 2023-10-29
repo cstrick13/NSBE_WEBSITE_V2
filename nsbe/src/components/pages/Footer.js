@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
         <div className='footer'>
-            <div className='footer-section-padding'>
+            <div className='sb_footer footer-section-padding'>
                 <div className='footer-links'>
                     <div className='footer-links-div'>
                         <h4>National Information</h4>
@@ -26,18 +26,14 @@ const Footer = () => {
                                 <i class="fa-brands fa-facebook"></i>
                                 <i class="fa-brands fa-twitter"></i>
                                 <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-brands fa-linkedin-in"></i>
+                                <i class="fa-brands fa-tiktok"></i>
                             </div>
                     </div>
-                    <hr></hr>
-
-                    <div className='footer-below'>
-                        <div className='footer-copyright'>
-                            <p>
-                                Powered by NSBE Telcoms 2023
-                            </p>
-                        </div>
-                    </div>
+                </div>
+                <hr></hr>
+                <div className='footer-below'>
+                    <p>© 2023 Designed and Maintained by NSBE Telecoms</p>
+                    <p>"Icon made by Freepik from www.flaticon.com"</p>
                 </div>
             </div>
         </div>

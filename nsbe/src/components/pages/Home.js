@@ -33,7 +33,7 @@ function Home() {
         <div class="mission-section">
         <h1>Our Mission</h1>
         <hr className='under-line'/>
-        <p class="mission-statement"> "is to increase the number of culturally responsible Black engineers who excel academically, succeed professionally and positively impact the community"</p>
+        <p className="mission-statement"> "is to increase the number of culturally responsible Black engineers who excel academically, succeed professionally and positively impact the community"</p>
     </div>
     </div>
     </div>

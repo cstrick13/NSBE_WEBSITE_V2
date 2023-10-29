@@ -1,5 +1,12 @@
+.footer-icons{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
 .footer-icons i {
-    padding: 0.4rem 0.5rem;
+    padding: 0.5rem 0.6rem;
     background: #e1e1e1;
     color: #f60838;
     margin: 0 0.5rem;
@@ -14,10 +21,61 @@
   }
 
   .footer-section-padding{
-    padding: 4rem 4rem;
+    padding: 2rem 6rem;
   }
 
   .footer{
     background-color: #2d2d32;
   }
-  
+  .sb_footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .footer-links-div{
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+  }
+  .footer-links-div h4{
+    font-size: 18px;
+    line-height: 17px;
+    margin-bottom: .9rem;
+  }
+  .footer-links-div p{
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: .5rem 0;
+    cursor: pointer;
+  }
+  .footer-below{
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+    margin: .5rem;
+    margin-top: .2rem;
+    cursor: default;
+  }
+  .footer-below p{
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: white;
+    font-weight: 600;
+  }
+  hr{
+    color: white !important;
+    width: 100%;
+  }
