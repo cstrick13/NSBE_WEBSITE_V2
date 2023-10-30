@@ -79,6 +79,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    border-radius: 50%;
     top:0;
     left:0;
     background-color: #fff24381;
@@ -89,6 +90,7 @@
     transform: scale(0,0);
     transform-origin: right;
     transition: all .5s ease-in-out;
+    overflow: hidden;
 }
 .info-team .name-team{
     font-size: 25px;
@@ -131,6 +133,9 @@
 @media screen and  (max-width: 550px) {  /* Adjust this breakpoint as per your needs */
     .team h1{
         font-size: 20px;
+    }
+    .info-team{
+        overflow: hidden;
     }
     .info-team .name-team{
         font-size: 18px;

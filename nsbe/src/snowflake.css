@@ -1,0 +1,27 @@
+
+.snow{
+    position: absolute;
+    display: flex;
+    width: 50px;
+    z-index: 100;
+    top:0;
+    left: 0;
+    height:50px;
+    background-size: cover;
+    background-image: url("snowflake.png");
+    animation: animationSnow 4s ease-in-out infinite;
+}
+
+@keyframes animationSnow{
+    0%{
+        transform: translate(0,0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform:translate(100px,50vh)
+    }
+}
