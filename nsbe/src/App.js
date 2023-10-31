@@ -24,14 +24,15 @@ const App = () => {
   
 
   const handleResize = () => {
-    const count = 200;
+    const count = 150;
     console.log("width :" + window.innerWidth)
     console.log("height: " + window.document.documentElement.offsetHeight)
     console.log("count:" + count)
 
     const newSnowflakes = [];
     const isMobile = window.innerWidth <= 100;
-    var height =  window.document.documentElement.offsetHeight 
+    var height =  window.document.documentElement.offsetHeight
+    
 
     for (let i = 0; i < count; i++) {
       const leftSnow = isMobile
@@ -42,7 +43,7 @@ const App = () => {
       : Math.floor(Math.random() * (window.document.documentElement.offsetHeight-550)); 
       const widthSnow = Math.floor(Math.random() * 50);
       const timeSnow = Math.floor(Math.random() * 5) + 5;
-      const blurSnow = Math.floor(Math.random() * 5);
+      const blurSnow = Math.floor(Math.random() * 2);
 
       newSnowflakes.push(
         <div

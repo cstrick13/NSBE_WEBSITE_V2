@@ -18,6 +18,10 @@ import trey from "./headshots/trey.jpg"
 import wade from "./headshots/wade.jpg"
 
 import nationals from './carousel/Nationals1.jpg';
+import CEB from './carousel/CEB.jpg';
+import firstDay from './carousel/firstDay.jpg';
+import grambling from './carousel/gramblinb.jpg';
+import tech from './carousel/tech.jpg';
 import nationals2 from './carousel/Nationals2.jpg';
 import nationals3 from './carousel/F2.jpg';
 import nationals4 from './carousel/DSC_0277.jpg';
@@ -26,6 +30,10 @@ import newsBoard from './carousel/NewBoard.jpg';
 
 export{
     logo,
+    CEB,
+    firstDay,
+    grambling,
+    tech,
     lili,
     joe,
     cory,

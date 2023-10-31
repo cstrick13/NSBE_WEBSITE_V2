@@ -50,10 +50,10 @@ function Calendar() {
                 <div className="overlay"></div>
 
                 <div className="event-info">
-                    <p className="title">Study Jams</p>
+                    <p className="title">FRC</p>
                     <div className="separator"></div>
                     <p className="info">Tues/Thurs</p>
-                    <p className="price">Tutoring</p>
+                    <p className="price">Conference</p>
 
                     <div className="additional-info">
                         <p className="info">

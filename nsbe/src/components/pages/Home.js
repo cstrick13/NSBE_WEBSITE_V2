@@ -1,5 +1,5 @@
 import React from 'react';
-import { nationals } from '../../assets';
+import { CEB, firstDay, grambling, nationals, tech } from '../../assets';
 import { nationals2,nationals3,nationals4 } from '../../assets';
 import { newsBoard } from '../../assets';
 import { SectionWrapper } from '../../hoc';
@@ -8,7 +8,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import "./Home.css";
 
 
-const IMAGES = [nationals2,nationals,newsBoard,nationals4];
+const IMAGES = [CEB,tech,firstDay,grambling];
 
 function Home() {
   return (
