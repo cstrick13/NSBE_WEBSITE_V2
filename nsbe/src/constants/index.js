@@ -1,5 +1,5 @@
 const calendar = () => {
-  window.location.href = "https://calendar.google.com/calendar/embed?src=corystrickland13%40gmail.com&ctz=America%2FChicago";
+  window.location.href = "https://calendar.google.com/calendar/embed?src=nsbelatech.vice%40gmail.com&ctz=America%2FChicago";
 };
 
 

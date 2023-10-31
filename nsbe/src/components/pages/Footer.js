@@ -23,9 +23,9 @@ const Footer = () => {
                     <div className='footer-links-div'>
                         <h4>Check Us Out</h4>
                         <div className="footer-icons">
-                                <i class="fa-brands fa-facebook"></i>
-                                <i class="fa-brands fa-twitter"></i>
+                            <a href='https://instagram.com/latechnsbe?igshid=OGQ5ZDc2ODk2ZA==' target='_blank'>
                                 <i class="fa-brands fa-instagram"></i>
+                            </a>
                                 <i class="fa-brands fa-tiktok"></i>
                             </div>
                     </div>
