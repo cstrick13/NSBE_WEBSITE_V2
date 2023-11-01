@@ -1,5 +1,5 @@
 import React from 'react';
-import { img1,img2,img3,img4 } from '../../assets';
+import { ginger, img1,img2,img3,img4 } from '../../assets';
 import "./Calendar.css";
 import { SectionWrapper } from '../../hoc';
 
@@ -14,7 +14,7 @@ function Calendar() {
         
         <div className="item-container">
             <div className="img-container">
-                <img src={img1} alt="Event image" />
+                <img src={img4} alt="Event image" />
             </div>
             <div className="body-container">
                 <div className="overlay"></div>
@@ -36,7 +36,7 @@ function Calendar() {
                         </p>
 
                         <p className="info description">
-                            Study Jams someruigbyrgfuicbjnjz cjk ckl ckdsm c;kmcl;
+                          
                         </p>
                     </div>
                 </div>
@@ -52,25 +52,24 @@ function Calendar() {
                 <div className="event-info">
                     <p className="title">FRC</p>
                     <div className="separator"></div>
-                    <p className="info">Tues/Thurs</p>
+                    <p className="info">November 16-18</p>
                     <p className="price">Conference</p>
 
                     <div className="additional-info">
                         <p className="info">
                             <i className="fas fa-map-marker-alt"></i>
-                            IESB 220
+                            New Orleans,LA
                         </p>
                         <p className="info">
                             <i className="far fa-calendar-alt"></i>
-                            Every Tuesday and Thursday, 7pm
+                            Novemebr 16-18
                         </p>
-
-                        <p className="info description">
-                            Study Jams someruigbyrgfuicbjnjz cjk ckl ckdsm c;kmcl;
+                        <p className="info description">    
                         </p>
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
     

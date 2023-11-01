@@ -11,6 +11,7 @@ import Member from './components/pages/Member';
 import './snowflake.css';
 
 const App = () => {
+  
   const [snowflakes, setSnowflakes] = useState([]);
   function debounce(func, wait) {
     let timeout;
@@ -24,20 +25,20 @@ const App = () => {
   
 
   const handleResize = () => {
-    const count = 150;
-    console.log("width :" + window.innerWidth)
-    console.log("height: " + window.document.documentElement.offsetHeight)
-    console.log("count:" + count)
+   
 
     const newSnowflakes = [];
-    const isMobile = window.innerWidth <= 100;
+    const isMobile = window.innerWidth <= 700;
     var height =  window.document.documentElement.offsetHeight
-    
+    const count = isMobile ? 50 : 150;
+    console.log(count)
+
 
     for (let i = 0; i < count; i++) {
       const leftSnow = isMobile
-      ? Math.floor(Math.random() * (window.innerWidth - 300))
+      ? Math.floor(Math.random() * (window.innerWidth-200))
       : Math.floor(Math.random() * (window.innerWidth-150));
+      console.log(leftSnow)
       const topSnow = isMobile 
       ? Math.floor(Math.random() * (window.document.documentElement.offsetHeight-600))  // For mobile, appHeight multiplied by a factor
       : Math.floor(Math.random() * (window.document.documentElement.offsetHeight-550)); 
@@ -76,6 +77,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
+    <div className='Container'>
       <div id="container">
         <div className="snow"></div>
         {snowflakes}
@@ -87,6 +89,7 @@ const App = () => {
         <Calendar />
         <Programs />
         <Footer />
+      </div>
       </div>
     </BrowserRouter>
   );

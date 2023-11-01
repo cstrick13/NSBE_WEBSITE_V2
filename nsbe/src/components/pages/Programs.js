@@ -44,12 +44,33 @@ function Programs() {
           </div>
           <div className='card-team'>
             <div className='box-team'>
+                  <img src={female} />
+            </div>
+            <div className='info-team'>
+              <div className='name-team'>Kristen Steelman</div>
+              <div className='details-team'>CEB Positiont</div>
+              <div className='emails-team'>nsbe.latech.blajh</div>
+            </div>
+          </div>
+          <div className='card-team'>
+            <div className='box-team'>
                   <img src={cory} />
             </div>
             <div className='info-team'>
               <div className='name-team'>Cory Strickland</div>
               <div className='details-team'>Telecoms</div>
               <div className='emails-team'>nsbe.latech.blajh</div>
+            </div>
+          </div>
+        
+          <div className='card-team'>
+            <div className='box-team'>
+                  <img src={female} />
+            </div>
+            <div className='info-team'>
+              <div className='name-team'>Janae Dotson</div>
+              <div className='details-team'>Academic Excellence Chair</div>
+              <div className='emails-team'>nsbelatech.aex@gmail.com</div>
             </div>
           </div>
           <div className='card-team'>
@@ -67,28 +88,19 @@ function Programs() {
                   <img src={female} />
             </div>
             <div className='info-team'>
-              <div className='name-team'>Janae Dotson</div>
-              <div className='details-team'>CEB Position</div>
-              <div className='emails-team'>nsbe.latech@gmail.com</div>
-            </div>
-          </div>
-          <div className='card-team'>
-            <div className='box-team'>
-                  <img src={female} />
-            </div>
-            <div className='info-team'>
               <div className='name-team'>Kelsie Cubert</div>
               <div className='details-team'>CEB Position</div>
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
           </div>
+          
           <div className='card-team'>
             <div className='box-team'>
-                  <img src={female} />
+                  <img src={wade} />
             </div>
             <div className='info-team'>
-              <div className='name-team'>Kristen Steelman</div>
-              <div className='details-team'>CEB Positiont</div>
+              <div className='name-team'>Wade Caskey</div>
+              <div className='details-team'>CEB Position</div>
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
           </div>
@@ -112,16 +124,7 @@ function Programs() {
               <div className='emails-team'>nsbe.latech.blajh</div>
             </div>
           </div>
-          <div className='card-team'>
-            <div className='box-team'>
-                  <img src={wade} />
-            </div>
-            <div className='info-team'>
-              <div className='name-team'>Wade Caskey</div>
-              <div className='details-team'>CEB Position</div>
-              <div className='emails-team'>nsbe.latech.blajh</div>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>

@@ -155,3 +155,11 @@
       transition: 250ms;
     }
   }
+
+  @media screen and (max-width: 1345px) and (orientation: landscape){
+    .nav-menu {
+      height: calc(100vh - 80px); /* Reduce the height */
+      top: 80px; 
+      overflow-y:auto; /* Change overflow-y to auto */
+  }
+  }

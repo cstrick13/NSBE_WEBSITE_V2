@@ -8,6 +8,7 @@ import fire from "./fire.png"
 import bulldog from "./bulldog.png"
 import male from "./man.jpg";
 import female from "./woman.jpg";
+import ginger from "./gigner.jpg";
 
 import lili from './headshots/Lili.jpg'
 import joe from "./headshots/joe.jpg"
@@ -34,6 +35,7 @@ export{
     firstDay,
     grambling,
     tech,
+    ginger,
     lili,
     joe,
     cory,
