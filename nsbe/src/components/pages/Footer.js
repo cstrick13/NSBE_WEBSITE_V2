@@ -26,7 +26,6 @@ const Footer = () => {
                             <a href='https://instagram.com/latechnsbe?igshid=OGQ5ZDc2ODk2ZA==' target='_blank'>
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
-                                <i class="fa-brands fa-tiktok"></i>
                             </div>
                     </div>
                     <div className='footer-links-div'>
