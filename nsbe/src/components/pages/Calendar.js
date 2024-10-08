@@ -8,69 +8,15 @@ function Calendar() {
   return (
     <>
     <div className='header-text-Events'>
-    <h1>Events</h1>
+    <div className="calendar-container">
+      <iframe 
+        src="https://teamup.com/ks74r4wp9oe2jzbgni?showProfileAndInfo=0&showSidepanel=1&showViewHeader=1&showAgendaDetails=0&showDateControls=1" 
+        className="calendar-iframe" 
+        loading="lazy" 
+        frameBorder="0" 
+        title="TeamUp Calendar"
+      ></iframe>
     </div>
-     <div className="container-1">
-        
-        <div className="item-container">
-            <div className="img-container">
-                <img src={img4} alt="Event image" />
-            </div>
-            <div className="body-container">
-                <div className="overlay"></div>
-
-                <div className="event-info">
-                    <p className="title">Study Jams</p>
-                    <div className="separator"></div>
-                    <p className="info">Tues/Thurs</p>
-                    <p className="price">Tutoring</p>
-
-                    <div className="additional-info">
-                        <p className="info">
-                            <i className="fas fa-map-marker-alt"></i>
-                            IESB 220
-                        </p>
-                        <p className="info">
-                            <i className="far fa-calendar-alt"></i>
-                            Every Tuesday and Thursday, 7pm
-                        </p>
-
-                        <p className="info description">
-                          
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="item-container">
-            <div className="img-container">
-                <img src={img2} alt="Event image" />
-            </div>
-            <div className="body-container">
-                <div className="overlay"></div>
-
-                <div className="event-info">
-                    <p className="title">FRC</p>
-                    <div className="separator"></div>
-                    <p className="info">November 16-18</p>
-                    <p className="price">Conference</p>
-
-                    <div className="additional-info">
-                        <p className="info">
-                            <i className="fas fa-map-marker-alt"></i>
-                            New Orleans,LA
-                        </p>
-                        <p className="info">
-                            <i className="far fa-calendar-alt"></i>
-                            Novemebr 16-18
-                        </p>
-                        <p className="info description">    
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
     </div>
     
     </>

@@ -11,15 +11,10 @@ export const navLinks = [
     },
     {
       id: "calendar",
-      title: "Events",
+      title: "Calendar",
     },
     {
       id: "programs",
       title: "CEB",
-    },
-    {
-      id: "Calendar",
-      title: "Calendar",
-      onclick: calendar,
     },
   ];

@@ -4,58 +4,74 @@
     align-items: center;
   }
   
-  .header-text {
-    padding-bottom: 45rem;
-    font-weight: normal;
-    font-size: 70px;
+  .hero-section {
+    position: relative;
+    background-attachment: fixed; /* Creates the parallax effect */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     text-align: center;
-    color: black;
+    margin-top: -120px;
   }
-  .image-slider {
-    max-width: 100%;
-    width: 1200px;
-    object-fit: cover;
-    height: 500px;
-    margin: 0 auto;
+  
+  
+  .overlay {
     position: absolute;
-    top:210px;
-}
-
-.inner-text{
-    color: rgb(220,47,2);
-    font-size: 70px;
-    font-weight: bolder;
-}
-
-.slider-container {
-    max-width: 1600px;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 400px;
-    margin: 0 auto;
-}
-
-.mission-section {
-    padding: 10px;
-    text-align: center;
-    color: black;
-}
-.mission-section h1{
-    padding: 10px;
-    font-size: 40px;
-    font-weight: bold;
-}
-.mission-statement {
-    padding: 10px;
-    font-size: 25px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.under-line{
-    border: 2px solid rgb(255, 195, 0);
+    height: 100%; /* Ensures the overlay covers the full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    z-index: 1; /* Ensure it covers the background but is behind the text */
+  }
+  
+  .under-line {
+    border: 2px solid #ffc300;
     border-radius: 2px;
 }
-
+  hr {
+    color: #000 !important;
+    width: 100%;
+}
+  
+  .typewriter-text {
+    font-size: 3.5rem;
+    color: #f9d342; /* You can adjust this color as needed */
+  }
+  
+  /* Mission section */
+  .mission-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5f5f5; /* Light background */
+  }
+  
+  .under-line {
+    border: 2px solid #ffc300;
+    border-radius: 2px;
+    
+}
+  
+  .mission-statement {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  /* General text styling */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
 @media (max-width: 810px) {
   .header-text{
     padding-bottom: 45rem;
@@ -67,14 +83,6 @@
     color: rgb(220,47,2);
     font-size: 30px;
     font-weight: bolder;
-}
-
-  .image-slider {
-    max-width: 1200px;
-    width: 100%;
-    height: 275px;
-    margin: 0 auto;
-    position: absolute;
 }
 .mission-section {
     padding: 20px;
