@@ -78,10 +78,6 @@ const App = () => {
   return (
     <BrowserRouter>
     <div className='Container'>
-      <div id="container">
-        <div className="snow"></div>
-        {snowflakes}
-      </div>
       <Navbar />
       <div>
         <Home />

@@ -1,80 +1,57 @@
 import React from 'react';
-import { ginger, img1,img2,img3,img4 } from '../../assets';
-import "./Calendar.css";
+import './Calendar.css';
 import { SectionWrapper } from '../../hoc';
-
+import { img2, img4 } from '../../assets';
 
 function Calendar() {
+  const events = [
+    {
+      id: 1,
+      title: 'Study Jams',
+      date: 'Tues/Thurs',
+      type: 'Tutoring',
+      location: 'IESB 220',
+      time: 'Every Tuesday and Thursday, 7pm',
+      image: img4,
+    },
+    {
+      id: 2,
+      title: 'FRC',
+      date: 'November 16-18',
+      type: 'Conference',
+      location: 'New Orleans, LA',
+      time: 'November 16-18',
+      image: img2,
+    },
+    // Add more events here...
+  ];
+
   return (
     <>
-    <div className='header-text-Events'>
-    <h1>Events</h1>
-    </div>
-     <div className="container-1">
-        
-        <div className="item-container">
-            <div className="img-container">
-                <img src={img4} alt="Event image" />
+      <div className="events-section">
+        <h1>Events</h1>
+        <div className="events-grid">
+          {events.map((event) => (
+            <div className="event-card" key={event.id}>
+              <img src={event.image} alt={event.title} />
+              <div className="event-content">
+                <h2>{event.title}</h2>
+                <p className="event-date">{event.date}</p>
+                <p className="event-type">{event.type}</p>
+                <p className="event-location">
+                  <i className="fas fa-map-marker-alt"></i> {event.location}
+                </p>
+                <p className="event-time">
+                  <i className="far fa-calendar-alt"></i> {event.time}
+                </p>
+                <button className="event-button">Learn More</button>
+              </div>
             </div>
-            <div className="body-container">
-                <div className="overlay"></div>
-
-                <div className="event-info">
-                    <p className="title">Study Jams</p>
-                    <div className="separator"></div>
-                    <p className="info">Tues/Thurs</p>
-                    <p className="price">Tutoring</p>
-
-                    <div className="additional-info">
-                        <p className="info">
-                            <i className="fas fa-map-marker-alt"></i>
-                            IESB 220
-                        </p>
-                        <p className="info">
-                            <i className="far fa-calendar-alt"></i>
-                            Every Tuesday and Thursday, 7pm
-                        </p>
-
-                        <p className="info description">
-                          
-                        </p>
-                    </div>
-                </div>
-            </div>
+          ))}
         </div>
-        <div className="item-container">
-            <div className="img-container">
-                <img src={img2} alt="Event image" />
-            </div>
-            <div className="body-container">
-                <div className="overlay"></div>
-
-                <div className="event-info">
-                    <p className="title">FRC</p>
-                    <div className="separator"></div>
-                    <p className="info">November 16-18</p>
-                    <p className="price">Conference</p>
-
-                    <div className="additional-info">
-                        <p className="info">
-                            <i className="fas fa-map-marker-alt"></i>
-                            New Orleans,LA
-                        </p>
-                        <p className="info">
-                            <i className="far fa-calendar-alt"></i>
-                            Novemebr 16-18
-                        </p>
-                        <p className="info description">    
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-    
+      </div>
     </>
-  )
+  );
 }
 
-export default SectionWrapper(Calendar,'calendar');
+export default SectionWrapper(Calendar, 'calendar');

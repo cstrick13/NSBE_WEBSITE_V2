@@ -12,33 +12,23 @@ const IMAGES = [CEB,tech,firstDay,grambling];
 
 function Home() {
   return (
-    <>
-    <div className='section-container'>
-      <h1 className='header-text'>
-        We are {' '}
-        <span className='inner-text'>
+    <div className="hero-container">
+      <img src={CEB} alt="Hero Background" className="hero-background-image" />
+      <div className="hero-overlay">
+        <h1>Louisiana Tech NSBE</h1>
+        <h2>
           <Typewriter
-            words={[ 'Strong','Proud','United','LaTech NSBE!']}
-            loop={true}
+            words={['Innovate', 'Inspire', 'Empower']}
+            loop={0}
             cursor
-            cursorStyle='|'
-            typeSpeed={350}
-            deleteSpeed={200}
-            delaySpeed={1200}
+            cursorStyle="_"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
           />
-        </span>
-      </h1>
-      <div className="image-slider" >
-        <ImageSlider imageUrls={IMAGES}  />
-        <div className="mission-section">
-        <h1>Our Mission</h1>
-        <hr className='under-line'/>
-        <p className="mission-statement"> "is to increase the number of culturally responsible Black engineers who excel academically, succeed professionally and positively impact the community"</p>
+        </h2>
+      </div>
     </div>
-    </div>
-    </div>
-  
-    </>
   )
 }
 

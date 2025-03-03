@@ -3,17 +3,36 @@
     justify-content: center;
     align-items: center;
     background: #222;
+    height: 100vh;
     min-height: 100vh;
 
 
 }
+.card-extra {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .extra-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    color: #555; /* Adjust color for contrast with your card background */
+  }
+  
+  .extra-item i {
+    font-size: 1.8rem;
+    color: #ff0057; /* Accent color – adjust as needed */
+  }
+  
 .container{
     position: relative;
     width:1000px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 20px;
 }
 .container .card{
     position: relative;

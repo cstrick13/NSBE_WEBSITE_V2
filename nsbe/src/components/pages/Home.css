@@ -1,91 +1,52 @@
-.section-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .header-text {
-    padding-bottom: 45rem;
-    font-weight: normal;
-    font-size: 70px;
-    text-align: center;
-    color: black;
-  }
-  .image-slider {
-    max-width: 100%;
-    width: 1200px;
-    object-fit: cover;
-    height: 500px;
-    margin: 0 auto;
-    position: absolute;
-    top:210px;
+.hero-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
 
-.inner-text{
-    color: rgb(220,47,2);
-    font-size: 70px;
-    font-weight: bolder;
+.hero-background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.slider-container {
-    max-width: 1600px;
-    width: 100%;
-    height: 400px;
-    margin: 0 auto;
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay for readability */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
 }
 
-.mission-section {
-    padding: 10px;
-    text-align: center;
-    color: black;
-}
-.mission-section h1{
-    padding: 10px;
-    font-size: 40px;
-    font-weight: bold;
-}
-.mission-statement {
-    padding: 10px;
-    font-size: 25px;
-    color: #333;
-    margin-bottom: 20px;
+.hero-overlay h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
 }
 
-.under-line{
-    border: 2px solid rgb(255, 195, 0);
-    border-radius: 2px;
+.hero-overlay h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
-@media (max-width: 810px) {
-  .header-text{
-    padding-bottom: 45rem;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
-  }
-  .inner-text{
-    color: rgb(220,47,2);
-    font-size: 30px;
-    font-weight: bolder;
+.hero-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #ff6600;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
-  .image-slider {
-    max-width: 1200px;
-    width: 100%;
-    height: 275px;
-    margin: 0 auto;
-    position: absolute;
-}
-.mission-section {
-    padding: 20px;
-    text-align: center;
-    color: black;
-    font-size: 10px;
-}
-.mission-statement {
-    padding: 20px;
-    font-size: 20px;
-    color: #333;
-    margin-bottom: 20px;
-}
+.hero-btn:hover {
+  background-color: #e65c00;
 }
