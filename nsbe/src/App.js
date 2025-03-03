@@ -9,6 +9,8 @@ import Footer from './components/pages/Footer';
 import Home from './components/pages/Home';
 import Member from './components/pages/Member';
 import './snowflake.css';
+import EmbedCalendar from './components/pages/EmbedCalendar';
+import Alumni from './components/pages/Alumni';
 
 const App = () => {
   
@@ -83,6 +85,8 @@ const App = () => {
         <Home />
         <About />
         <Calendar />
+        <EmbedCalendar />
+        <Alumni />
         <Programs />
         <Footer />
       </div>

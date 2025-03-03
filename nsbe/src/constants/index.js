@@ -1,6 +1,4 @@
-const calendar = () => {
-  window.location.href = "https://calendar.google.com/calendar/embed?src=nsbelatech.vice%40gmail.com&ctz=America%2FChicago";
-};
+
 
 
 
@@ -14,12 +12,11 @@ export const navLinks = [
       title: "Events",
     },
     {
-      id: "programs",
-      title: "CEB",
+      id: "embedcalendar",
+      title: "Calendar",
     },
     {
-      id: "Calendar",
-      title: "Calendar",
-      onclick: calendar,
-    },
+      id:"alumni",
+      title:"Alumni"
+    }
   ];
