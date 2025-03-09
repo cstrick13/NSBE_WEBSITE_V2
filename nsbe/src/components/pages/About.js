@@ -18,20 +18,6 @@ function About() {
                 <p>
                   The National Society of Black Engineers (NSBE) is a 501(C)(3) non-profit association that is owned and managed by its members. The organization is dedicated to the academic and professional success of African-American engineering students and professionals. NSBE offers leadership training, professional development, mentoring opportunities, career placement services and more.
                 </p>
-                <div className="card-extra">
-                  <div className="extra-item">
-                    <i className="fa fa-lightbulb-o" aria-hidden="true"></i>
-                    <span>Innovation</span>
-                  </div>
-                  <div className="extra-item">
-                    <i className="fa fa-users" aria-hidden="true"></i>
-                    <span>Community</span>
-                  </div>
-                  <div className="extra-item">
-                    <i className="fa fa-graduation-cap" aria-hidden="true"></i>
-                    <span>Excellence</span>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -45,20 +31,6 @@ function About() {
                 <p>
                   The Louisiana Tech chapter is one of the many chapters of Region V, the Vanguard region, and is fully run by students. Our objective is to build a foundation to unify African Americans, black engineers, and other minorities. NSBE focuses on helping students excel academically and professionally, while also impacting our community and campus.
                 </p>
-                <div className="card-extra">
-                  <div className="extra-item">
-                    <i className="fa fa-rocket" aria-hidden="true"></i>
-                    <span>Growth</span>
-                  </div>
-                  <div className="extra-item">
-                    <i className="fa fa-handshake-o" aria-hidden="true"></i>
-                    <span>Partnerships</span>
-                  </div>
-                  <div className="extra-item">
-                    <i className="fa fa-book" aria-hidden="true"></i>
-                    <span>Learning</span>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

@@ -18,6 +18,7 @@
   position: fixed; /* Switch to fixed to remain on top while scrolling */
 }
 
+
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -46,18 +47,18 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  display: flex;
+  grid-gap: 10px; /* Reduce gap between items */
   list-style: none;
   text-align: center;
-  width: 60vw;
   justify-content: end;
   margin-right: 2rem;
+  flex-wrap: nowrap; /* Prevent wrapping */
 }
 
+
 .nav-links {
-  color: #fff; /* White text so it shows on hero image */
+  color: #ffffff; /* White text so it shows on hero image */
   display: flex;
   align-items: center;
   text-decoration: none;

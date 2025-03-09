@@ -1,5 +1,5 @@
 import React from 'react';
-import { CEB, firstDay, grambling, nationals, tech } from '../../assets';
+import { CEB, firstDay, grambling, nationals, tech} from '../../assets';
 import { nationals2,nationals3,nationals4 } from '../../assets';
 import { newsBoard } from '../../assets';
 import { SectionWrapper } from '../../hoc';
@@ -13,7 +13,7 @@ const IMAGES = [CEB,tech,firstDay,grambling];
 function Home() {
   return (
     <div className="hero-container">
-      <img src={CEB} alt="Hero Background" className="hero-background-image" />
+      <img src={nationals4} alt="Hero Background" className="hero-background-image" />
       <div className="hero-overlay">
         <h1>Louisiana Tech NSBE</h1>
         <h2>

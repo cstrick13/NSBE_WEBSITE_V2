@@ -68,16 +68,23 @@ function Navbar() {
                 </a>
               </li>
                 ))}
-              {!button && (
-            <a
-              href="#Member"
-              className="nav-links-mobile"
-              onClick={memberForm}
-              >
-              Become a Member
-            </a>
-                )}
-        </ul>
+
+  {/* Show "Become a Member" as a link ONLY on small screens */}
+{!button ? (
+  <a
+    href="#Member"
+    className="nav-links-mobile"
+    onClick={memberForm}
+  >
+    Become a Member
+  </a>
+) : (
+  <Button onClick={memberForm} className="nav-button">
+    Become a Member
+  </Button>
+)}
+
+</ul>
       </div>
     </nav>
   );
