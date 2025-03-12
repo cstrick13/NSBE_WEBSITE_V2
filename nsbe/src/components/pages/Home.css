@@ -50,3 +50,16 @@
 .hero-btn:hover {
   background-color: #e65c00;
 }
+
+@media screen and (max-width: 768px) {
+  .hero-overlay h1 {
+    font-size: 3rem;
+  }
+  .hero-overlay h2 {
+    font-size: 1.5rem;
+  }
+  .hero-btn {
+    font-size: 1rem; /* Optionally shrink the button text too */
+  }
+}
+

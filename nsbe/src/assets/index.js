@@ -9,6 +9,9 @@ import bulldog from "./bulldog.png"
 import male from "./man.jpg";
 import female from "./woman.jpg";
 import ginger from "./gigner.jpg";
+import pi_day from "./pi-day.jpg"
+import img111 from "./img111.jpg"
+import burrito from "./burrito.jpg"
 
 import lili from './headshots/Lili.jpg'
 import joe from "./headshots/joe.jpg"
@@ -55,6 +58,9 @@ export{
     alvin,
     wade,
     makayla,
-    trey
+    trey,
+    pi_day,
+    img111,
+    burrito
     //snowflake
 };

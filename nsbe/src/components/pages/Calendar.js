@@ -1,7 +1,7 @@
 import React from 'react';
 import './Calendar.css';
 import { SectionWrapper } from '../../hoc';
-import { img2, img4 } from '../../assets';
+import { burrito, img111, img2, img4, pi_day } from '../../assets';
 
 function Calendar() {
   const events = [
@@ -16,14 +16,31 @@ function Calendar() {
     },
     {
       id: 2,
-      title: 'FRC',
-      date: 'November 16-18',
-      type: 'Conference',
-      location: 'New Orleans, LA',
-      time: 'November 16-18',
-      image: img2,
+      title: 'Pie Day w/ NSBE',
+      date: 'March 14',
+      type: 'Events',
+      location: 'IESB',
+      time: '',
+      image: pi_day,
     },
-    // Add more events here...
+    {
+      id: 4,
+      title: 'NSBE GBM',
+      date: 'Mar 18',
+      type: 'Meetings',
+      location: 'IESB',
+      time: '',
+      image: img111,
+    },
+    {
+      id: 5,
+      title: 'NSBE Burritos (NOT FREE)',
+      date: 'Wed Mar 19 2025',
+      type: 'Fundrasier',
+      location: ' @Student Center (subject to change)',
+      time: '@11AM to 2PM',
+      image: burrito,
+    },
   ];
 
   return (

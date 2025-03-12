@@ -13,7 +13,7 @@ const IMAGES = [CEB,tech,firstDay,grambling];
 function Home() {
   return (
     <div className="hero-container">
-      <img src={nationals4} alt="Hero Background" className="hero-background-image" />
+      <img src={CEB} alt="Hero Background" className="hero-background-image" />
       <div className="hero-overlay">
         <h1>Louisiana Tech NSBE</h1>
         <h2>
